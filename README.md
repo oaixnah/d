@@ -1,2 +1,1 @@
-# bcr
-Biology Class Representative Log 😏
+# Day by day
