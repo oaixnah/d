@@ -42,11 +42,22 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 extra:
   analytics:
     provider: google
     property: G-KL781GK2EB
 nav:
   - Home: index.md
+  - 学习笔记:
+      - MySQL 8.0:
+          - 基础篇: study_notes/mysql8/basic.md
   - 读书笔记:
       - 纳瓦尔宝典: reading_notes/the_almanack_of_naval_ravikant.md
