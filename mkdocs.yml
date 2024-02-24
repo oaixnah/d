@@ -50,6 +50,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - footnotes
 extra:
   analytics:
     provider: google
@@ -60,4 +61,4 @@ nav:
       - MySQL 8.0:
           - 基础篇: study_notes/mysql8/basic.md
   - 读书笔记:
-      - 纳瓦尔宝典: reading_notes/the_almanack_of_naval_ravikant.md
+      - 纳瓦尔宝典: reading-notes/the-almanack-of-naval-ravikant.md
